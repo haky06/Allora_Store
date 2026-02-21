@@ -1,0 +1,117 @@
+/* PRODUCT PAGE */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #C5D89D;
+}
+
+
+header {
+    background-color: #89986D;
+    color: #F6F0D7;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #F6F0D7;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: #89986D ;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #C5D89D;
+}
+
+
+.product-page {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #C5D89D;
+    color: #505840;
+}
+
+.product-page h1 {
+    margin-bottom: 30px;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    background: #F6F0D7 ;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+}
+
+.price {
+    color: #75825d;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product-card button {
+    background: #9CAB84;
+    color: #F6F0D7 ;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background: #C5D89D;
+    color: #9CAB84;
+}
+
+.last{
+    background: #89986D ;
+    color: #F6F0D7;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.logo{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
+.logo a{
+     color: #F6F0D7 ;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.logo a:hover{
+    color: #C5D89D;
+}

@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #C5D89D;
+}
+
+/* HEADER */
+header {
+    background: #C5D89D;
+    color: #F6F0D7;
+    display: flex;
+    justify-content: space-between;
+    padding: 5 50px;
+    align-items: center;
+}
+
+nav a {
+    color: #F6F0D7;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #89986D;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url('allorastore.HTML');
+    background-size: cover;
+    background-position: center;
+    color: #F6F0D7;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.hero h1 {
+    font-size: 35px;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.fun{
+    padding: 20px 15px;
+    color: #5c6649;
+}
+
+.btn {
+    background: #89986D;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #C5D89D;
+    color: #89986D;
+}
+
+/* FEATURED PRODUCTS */
+.featured {
+    padding: 50px 20px;
+    text-align: center;
+    color: #5c6649;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.product {
+    background: #F6F0D7;
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: 0.3s;
+    
+}
+
+.product:hover{
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+}
+
+.product h3 {
+    margin: 10px 0;
+}
+
+.product p {
+    color: #9CAB84;
+    font-size: 18px;
+}
+
+/* ABOUT */
+.about {
+    background: #F6F0D7;
+    padding: 50px 20px;
+    text-align: center;
+    color: #5c6649;
+}
+
+/* FOOTER */
+footer {
+    background: #89986D ;
+    color: #F6F0D7;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.logo{
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+
+}
+.logo a{
+     color: #F6F0D7 ;
+    text-decoration: none;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.logo a:hover{
+    color: #89986D;
+}
